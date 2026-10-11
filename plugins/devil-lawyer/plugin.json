@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "devil-lawyer",
+  "version": "0.3.0",
+  "description": "Review proposals through guided questions, five perspectives and an evidence-based judgment.",
+  "author": {
+    "name": "LDA AUDIO TECH"
+  },
+  "repository": "https://github.com/AdriAir/DevilLawyer-Skill.git",
+  "license": "MIT",
+  "keywords": ["critical-review", "proposals", "decision-support"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Devil Lawyer",
+        "shortDescription": "Review proposals from five practical perspectives.",
+        "longDescription": "Clarify a proposal one question at a time, review its value, objections, assumptions, feasibility and recipient experience, then receive a clear recommendation and the visible debate record.",
+        "developerName": "LDA AUDIO TECH",
+        "category": "Productivity",
+        "capabilities": ["Read"],
+        "defaultPrompt": ["Use $devil-lawyer to critically review my proposal and clarify any necessary missing context one question at a time."]
+      }
+    }
+  }
+}

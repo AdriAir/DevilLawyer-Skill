@@ -1,0 +1,6 @@
+interface:
+  display_name: "Devil Lawyer"
+  short_description: "Open, evidence-based reviews from five perspectives."
+  default_prompt: "Use $devil-lawyer to review my proposal with a critical, evidence-based debate."
+policy:
+  allow_implicit_invocation: true
